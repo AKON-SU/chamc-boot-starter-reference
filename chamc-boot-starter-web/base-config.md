@@ -72,7 +72,7 @@ Jpa查询插件配置
 
 	Could not resolve placeholder 'chamc.web.scan.repository' in value "${chamc.web.scan.repository}"
 
-### radis配置 ###
+### redis配置 ###
 	
 说明：使用域登陆，缓存等功能时必须指定redis配置，否则会报`Cannot get Jedis connection`错误。如果不配置host，默认为本地的redis,
 	
